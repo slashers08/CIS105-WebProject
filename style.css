@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color:#222;
+}
 
+.navbar {
+  padding: .75rem;
+}
 
+.navbar-nav li {
+  padding-left: 25px;
+  font-size: 20px;
+}
 
+.navbar-brand {
+  font-size: 30px;
+}
 
-
-
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%;
+}
 
 
 
