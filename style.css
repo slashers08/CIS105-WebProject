@@ -5,6 +5,7 @@ html, body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color:#222;
+  background-color: lightgray;
 }
 
 .navbar {
@@ -66,6 +67,22 @@ footer hr {
 .welcomesection p{
   font-size: 20px;
   padding: 10px;
+}
+
+.mainsection {
+  height: 850px;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.blankspaceindex {
+  height: 500px;
+}
+
+#nameform,#phone,#email,#message {
+  width: 85%;
+  padding: 7px;
+  margin-bottom: 10px;
 }
 
 /*---Media Queries --*/
